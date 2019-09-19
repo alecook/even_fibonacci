@@ -1,7 +1,5 @@
 module Fibonacci
   class EvenFibonacci
-    attr_accessor :limit, :num1, :num2, :result
-
     def self.even_number_sum(limit = 4_000_000)
       fibonacci_sequence(limit).select {|n| n.even? }.sum
     end

@@ -10,10 +10,10 @@ module Fibonacci
       result = [num1, num2]
 
       while num1 + num2 < limit
-        add = num1 + num2
-        result << add
+        sum = num1 + num2
+        result << sum
         num1 = num2
-        num2 = add
+        num2 = sum
       end
       result
     end
